@@ -1,0 +1,37 @@
+.input-field {
+   height: 5vh;   
+   font-size: 2vh;
+   background-color: rgba(255, 255, 255, 0.05);
+   border-radius: 10px;
+   border-color: rgba(165, 165, 165, 0);
+   border-style: solid;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   /* outline: none; */
+}
+
+.input-field::-webkit-outer-spin-button,
+.input-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.dropdown-menu {
+   font-size: 1vw;
+   margin-left: 2vw;
+   background-color: rgba(0, 0, 0, 0);
+   color: rgb(211, 211, 211);
+   border-style: none;
+}
+
+.dropdown-options {
+   background-color: black;
+   color: green;
+   background: black;   
+   border-style: none;
+}
+
+.dropdown-options:focus {
+   border-style: none;
+   outline: none
+}

@@ -4,8 +4,8 @@ AJAX + ES6 JavaScript React, HTML5, vanilla CSS3.
 
 ***Work in progress***
 
-> Clone 
-> $ npm install 
-> $ npm start
+- Clone 
+- $ npm install 
+- $ npm start
 
 Chris Kennedy

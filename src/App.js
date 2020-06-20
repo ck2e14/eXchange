@@ -57,32 +57,16 @@ function App() {
   }
 
   const handlePopupHover = () => {
-    setHovered(true)
+    setHovered(true);
     setTimeout(() => {
       setHovered(false)
-    }, 3000);
+    }, 7500)
   }
   
-  const handlePopupHoverOut = () => {
-    setHovered(false)
-  }
-
-
-  let popup;
-  if(hovered) {
-    popup = <Popup />
-  }
-
   return (
     <div className='flex-container-to-center-popup'>
 
-      <div 
-          className="hitbox"
-          onMouseEnter={handlePopupHover}
-           >
-      </div>
-
-      {popup}
+      { hovered ? <Popup /> : null }
       
       <div className="background-img-and-top-flex-container" >
 
@@ -98,8 +82,11 @@ function App() {
 
           </div>
         
-          <div className="flex-content content-2">
+          <div 
+          onClick={handlePopupHover}
+          className="flex-content content-2">
             <CurrencyRow 
+              
               currencyOptions={currencyOptions}
               selectedCurrency={fromCurrency}
               onChangeCurrency={e => setFromCurrency(e.target.value)}
@@ -112,7 +99,9 @@ function App() {
             =
           </div>
         
-          <div className="flex-content content-4">
+          <div 
+          onClick={handlePopupHover}
+          className="flex-content content-4">
             <CurrencyRow
               currencyOptions={currencyOptions}
               selectedCurrency={toCurrency}

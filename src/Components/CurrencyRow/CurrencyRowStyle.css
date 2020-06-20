@@ -1,14 +1,16 @@
 .input-field {
    height: 5vh;   
    font-size: 2vh;
+   box-sizing: border-box;
    background-color: rgba(255, 255, 255, 0.05);
    border-radius: 10px;
-   border-color: rgba(165, 165, 165, 0);
+   border-color: rgba(173, 33, 33, 0);
    border-style: solid;
    text-align: center;
    color: rgb(255, 255, 255);
-   /* outline: none; */
+   outline: none;
 }
+
 
 .input-field::-webkit-outer-spin-button,
 .input-field::-webkit-inner-spin-button {

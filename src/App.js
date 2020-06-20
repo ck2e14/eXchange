@@ -111,6 +111,9 @@ function App() {
             />
           </div>
         
+          <div className="flex-content content-5">
+            Live currency exchange calculator
+          </div>
         </div>
 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>

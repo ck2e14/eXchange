@@ -7,7 +7,7 @@ const Popup = () => {
       <div className='testpop'>
 
          <div className="popup-content p1">
-            Built with love by Chris Kennedy <br/>
+            Made by Chris Kennedy <br/>
             I am actively seeking employment! 
          </div>
 

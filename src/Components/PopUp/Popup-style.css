@@ -10,7 +10,7 @@
    align-self: center;
    margin-top: -45vh;
    z-index: 9999999999999999;
-   background-color: rgba(255, 255, 255, 0.3);
+   background-color: rgba(36, 36, 36);
    border-radius: 10px;
    opacity: .3;
    padding: 1%;
@@ -36,7 +36,13 @@
 text-emphasis: none;
 text-decoration: none;
 white-space: pre-line;
-color: rgb(0, 255, 255);
+transition: all .25s ease-in-out;
+color: rgb(88, 88, 88);
+}
+
+.social-links:hover {
+        color: rgb(0, 255, 255);
+
 }
 /* *
  * ----------------------------------------

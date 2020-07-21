@@ -72,19 +72,17 @@ function App() {
 
         <div className="flex-content-container">  
 
-          <div 
-            className="flex-content content-1" 
-            id="colors"
-             >
+          <div className="flex-content content-1" 
+            id="colors">
               <div className="content-1-text" >
                 e<span className='highlight-character'>X</span>change<span className='highlight-character'>:</span>
               </div>
 
           </div>
         
-          <div 
+          <div className="flex-content content-2"
           onClick={handlePopupHover}
-          className="flex-content content-2">
+          >
             <CurrencyRow 
               
               currencyOptions={currencyOptions}
@@ -99,9 +97,9 @@ function App() {
             =
           </div>
         
-          <div 
+          <div className="flex-content content-4"
           onClick={handlePopupHover}
-          className="flex-content content-4">
+          >
             <CurrencyRow
               currencyOptions={currencyOptions}
               selectedCurrency={toCurrency}
@@ -112,7 +110,7 @@ function App() {
           </div>
         
           <div className="flex-content content-5">
-            Live currency exchange calculator
+            Live currency exchange rate calculator
           </div>
         </div>
 

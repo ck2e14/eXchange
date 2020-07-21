@@ -64,8 +64,12 @@ function App() {
   }
   
   return (
+    <>
+   
     <div className='flex-container-to-center-popup'>
-
+    <div className="bot-bar">
+      Christopher Kennedy | Full-stack web development | JavaScript ES6, React | Ruby on Rails | NoSQL | SQLite/PostgreSQL | CD/CI | Git   
+    </div>
       { hovered ? <Popup /> : null }
       
       <div className="background-img-and-top-flex-container" >
@@ -115,10 +119,13 @@ function App() {
         </div>
 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        </link>
               
-       </div>
+      </div>
 
     </div>
+  </>
   );
 }
 
